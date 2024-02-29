@@ -1,0 +1,9 @@
+input.error {
+    border: 1px solid #842029;
+}
+.error {
+    color: #842029;
+}
+.register-box {
+    width: 450px !important;
+}
