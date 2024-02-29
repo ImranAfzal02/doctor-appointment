@@ -14,7 +14,7 @@
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">List of Doctors</h3>
-
+                    <a href="{{ route('admin.doctor.create') }}" class="btn btn-primary btn-sm float-right">Add Doctor</a>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
@@ -24,6 +24,7 @@
                                 <th>ID</th>
                                 <th>Doctor Name</th>
                                 <th>Description</th>
+                                <th>Action</th>
                         </thead>
                         <tbody>
                             @foreach($doctors as $doctor)
@@ -31,6 +32,9 @@
                                     <td>{{ $doctor->id }}</td>
                                     <td>{{ $doctor->name }}</td>
                                     <td>{!! $doctor->description !!}</td>
+                                    <td>
+                                        <a href="{{ route('admin.doctor.edit', $doctor->id) }}" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                    </td>
                                 </tr>
                             @endforeach
                         </tbody>

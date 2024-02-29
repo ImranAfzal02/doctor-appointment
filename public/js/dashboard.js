@@ -44,6 +44,12 @@ $(function () {
     alert('You chose: ' + start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
   })
 
+    $('.date').daterangepicker({
+        singleDatePicker: true,
+        minYear: new Date().getFullYear(),
+        maxYear: parseInt(moment().format('YYYY'),10),
+        autoApply: true
+    });
 
 
   // The Calender

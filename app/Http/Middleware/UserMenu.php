@@ -22,6 +22,9 @@ class UserMenu {
         } else if(auth()->user()->hasRole('patient') && !auth()->user()->disabled) {
             $menu = config('menu')['patient'];
             $route = 'patient';
+        } else if(auth()->user()->hasRole('staff') && !auth()->user()->disabled) {
+            $menu = config('menu')['staff'];
+            $route = 'staff';
         } else {
             auth()->logout();
             return redirect()->route('login');

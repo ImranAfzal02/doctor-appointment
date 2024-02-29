@@ -19,14 +19,9 @@ return [
             '*'
         ]
     ],
-    'doctor' => [
-        'patient' => [
-            'view'
-        ],
+    'staff' => [
         'appointments' => [
-            'list',
-            'show-details',
-            'change-status'
+            '*'
         ]
     ]
 ];

@@ -17,6 +17,7 @@ class UserSeeder extends Seeder {
         \DB::table('users')->truncate();
 
         $this->createAdmin();
+        $this->createStaff();
     }
 
     private function createAdmin() {
@@ -27,6 +28,22 @@ class UserSeeder extends Seeder {
             'last_name' => 'Admin',
             'email' => 'admin@demo.pk',
             'mobile_number' => '+923355022792',
+            'password' => Hash::make('Pakistan@123'),
+            'email_verified_at' => Carbon::now()
+        ]);
+
+        $user->assignRole($role);
+
+    }
+
+    private function createStaff() {
+        $role = Role::where('name', 'staff')->first();
+
+        $user = User::create([
+            'first_name' => 'Staff',
+            'last_name' => 'Member',
+            'email' => 'staff@demo.pk',
+            'mobile_number' => '+923331234567',
             'password' => Hash::make('Pakistan@123'),
             'email_verified_at' => Carbon::now()
         ]);

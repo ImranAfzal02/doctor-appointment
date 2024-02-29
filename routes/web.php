@@ -20,28 +20,35 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::middleware('auth')->group(function () {
 
     Route::middleware('menu')->group(function () {
 
         Route::prefix('admin')->middleware('role:admin')->name('admin.')->group(function () {
 
-           Route::get('', DashboardController::class)->name('dashboard');
-           Route::get('patient', [\App\Http\Controllers\PatientController::class, 'index'])->name('patient.index');
-           Route::post('get-patient-details', [\App\Http\Controllers\PatientController::class, 'getPatientDetails'])->name('get-patient-details');
+            Route::get('', DashboardController::class)->name('dashboard');
+            Route::get('patient', [\App\Http\Controllers\PatientController::class, 'index'])->name('patient.index');
+            Route::post('get-patient-details', [\App\Http\Controllers\PatientController::class, 'getPatientDetails'])->name('get-patient-details');
 
-           Route::prefix('doctor')->name('doctor.')->group(function () {
-              Route::get('', [\App\Http\Controllers\Common\Doctorcontroller::class, 'index'])->name('index');
-           });
+            Route::prefix('doctor')->name('doctor.')->group(function () {
+                Route::get('', [\App\Http\Controllers\Common\Doctorcontroller::class, 'index'])->name('index');
+                Route::get('create', [\App\Http\Controllers\Common\Doctorcontroller::class, 'create'])->name('create');
+                Route::post('store', [\App\Http\Controllers\Common\Doctorcontroller::class, 'store'])->name('store');
+                Route::get('edit/{doctor}', [\App\Http\Controllers\Common\Doctorcontroller::class, 'edit'])->name('edit');
+                Route::post('update/{doctor}', [\App\Http\Controllers\Common\Doctorcontroller::class, 'update'])->name('update');
+            });
+
+            Route::get('appointments', [\App\Http\Controllers\Common\AppointmentController::class, 'index'])->name('appointments');
 
         });
 
         Route::prefix('patient')->middleware('role:patient')->name('patient.')->group(function () {
-           Route::get('', function () {
-             dd('patient Dashboard');
-           })->name('dashboard');
+            Route::get('', \App\Http\Controllers\Patient\DashboardController::class)->name('dashboard');
+            Route::get('appointments', [\App\Http\Controllers\Common\AppointmentController::class, 'index'])->name('appointments');
+        });
+
+        Route::prefix('staff')->middleware('role:staff')->name('staff.')->group(function () {
+            Route::get('', [\App\Http\Controllers\Common\AppointmentController::class, 'index'])->name('dashboard');
         });
     });
 

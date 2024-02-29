@@ -20,17 +20,41 @@ return [
                 'route' => 'admin.doctor.index',
                 'icon' => 'nav-icon fas fa-user-md',
                 'hasSubMenu' => false
+            ],
+            [
+                'title' => 'Appointments',
+                'route' => 'admin.appointments',
+                'icon' => 'nav-icon fas fa-calendar-alt',
+                'hasSubMenu' => false
             ]
-        ]
-    ],
-    'doctor' => [
-        'home_url' => 'doctor.dashboard',
-        'menu' => [
         ]
     ],
     'patient' => [
         'home_url' => 'patient.dashboard',
         'menu' => [
+            [
+                'title' => 'Dashboard',
+                'route' => 'patient.dashboard',
+                'icon' => 'nav-icon fas fa-tachometer-alt',
+                'hasSubMenu' => false
+            ],
+            [
+                'title' => 'Appointments',
+                'route' => 'patient.appointments',
+                'icon' => 'nav-icon fas fa-calendar-alt',
+                'hasSubMenu' => false
+            ]
+        ]
+    ],
+    'staff' => [
+        'home_url' => 'staff.dashboard',
+        'menu' => [
+            [
+                'title' => 'Appointments',
+                'route' => 'staff.dashboard',
+                'icon' => 'nav-icon fas fa-calendar-alt',
+                'hasSubMenu' => false
+            ]
         ]
     ]
 ];
