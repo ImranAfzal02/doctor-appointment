@@ -14,9 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return redirect()->route('login');
-});
+Route::get('/', [\App\Http\Controllers\StaticPagesController::class, 'index']);
+Route::get('/breast-screening', [\App\Http\Controllers\StaticPagesController::class, 'breastScreening']);
+Route::get('/benign-conditions', [\App\Http\Controllers\StaticPagesController::class, 'benignConditions']);
+Route::get('/our-team', [\App\Http\Controllers\StaticPagesController::class, 'ourTeam']);
+Route::get('/clinic-contact', [\App\Http\Controllers\StaticPagesController::class, 'clinicContact']);
+Route::get('/breast-cancer-diagnosis', [\App\Http\Controllers\StaticPagesController::class, 'breastCancerDiagnosis']);
+Route::get('/breast-cancer-treatment', [\App\Http\Controllers\StaticPagesController::class, 'breastCancerTreatment']);
+Route::get('/oncoplastic-breast-surgery', [\App\Http\Controllers\StaticPagesController::class, 'oncoPlasticBreastSurgery']);
+Route::get('/breast-reconstruction', [\App\Http\Controllers\StaticPagesController::class, 'breastReconstruction']);
+Route::get('/medical-tattooing-scar-therapy', [\App\Http\Controllers\StaticPagesController::class, 'medicalTattooingScarTherapy']);
+Route::get('/correction-breast-deformity', [\App\Http\Controllers\StaticPagesController::class, 'correctionBreastDeformity']);
+Route::get('/cosmetic-breast-surgery', [\App\Http\Controllers\StaticPagesController::class, 'cosmeticBreastSurgery']);
+Route::get('/oncology-consultation', [\App\Http\Controllers\StaticPagesController::class, 'oncologyConsultation']);
+Route::get('/psychology-support', [\App\Http\Controllers\StaticPagesController::class, 'psychologySupport']);
+Route::get('/locations', [\App\Http\Controllers\StaticPagesController::class, 'locations']);
+Route::get('/meet-our-team', [\App\Http\Controllers\StaticPagesController::class, 'meetOurTeam']);
 
 Auth::routes();
 

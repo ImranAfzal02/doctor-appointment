@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.intro {
+    font-size: 17px;
+}
+
+.services-heading {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub-heading-bold {
+    font-weight: bold;
+}
+
+.hello {
+    padding: 30px;
+    background-color: #e5ddee;
+    box-shadow: -10px 8px 7px rgba(0, 0, 0, 0.1);
+    
+}
+
+.first-nav {
+    background-image: url("/images/purplebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.second-nav {
+  background-color: #603261;
+}
+
+
+.navbar-nav .nav-link {
+color: rgb(247, 243, 248) !important;
+}
+
+
+
+
+.fab {
+padding: 10px;
+font-size: 20px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+
+.fab:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+button {
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 16px;
+padding-right: 16px;
+border: none;
+border-radius: 5px;
+background-color: #8f5a86;
+color: white;
+transition: background-color 0.7s;
+}
+
+button:hover {
+cursor: pointer;
+background-color:#663568 ;
+}
+
+.social-media-icons {
+gap: 2%;
+}
+
+.main-content {
+    padding-top: 40px;
+    background-color: #b18cb1;
+    padding-bottom: 80px;
+}
+
+.sidebar-content {
+font-family: 'Lato', 'sans-serif';
+}
+
+a {
+color: rgb(23, 15, 32);
+}
+
+a:hover {
+color: rgb(103, 58, 124);
+}
+.get-in-touch {
+font-family: 'Aleo';
+font-weight: bold;
+}
+
+p {
+    font-family: 'Inter';
+}
+
+.intro-line {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: bold;
+    color: #603261;
+}
+
+.sub-intro {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bold;
+    color: #020102;
+}
+
+.img-clinic {
+    display: block;
+}
+
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+.address-header {
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1a181ab6;
+    color: white;
+    font-size: 12px;
+}
+
