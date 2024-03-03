@@ -158,6 +158,15 @@ p {
     }
 }
 
+@media (max-width: 480px) {
+    .logo {
+        width: 100% !important;
+    }
+    .right-section-header {
+        text-align: center !important;
+    }
+}
+
 
 .address-header {
     font-weight: bold;

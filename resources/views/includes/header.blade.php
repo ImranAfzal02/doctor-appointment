@@ -1,10 +1,10 @@
 <div class="row first-nav logo-bar">
     <div class="col-md-9 mx-auto">
-        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+        <div class="d-md-flex" style="flex-direction: row; justify-content: space-between; align-items: center;">
             <div class="left-section-header">
                 <a href="/"><img class="logo" src="{{ asset('images/logo.png') }}" width="500"></a>
             </div>
-            <div class="right-section-header d-none d-md-flex flex-column justify-content-between" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="right-section-header d-md-flex flex-column justify-content-between" style="display: flex; flex-direction: column; justify-content: space-between;">
                 <div>
                     <span class="get-in-touch">GET IN TOUCH</span>
                 </div>
@@ -18,7 +18,7 @@
                     <a href="tel:+923215154178" style="color: black;">0321 5154178</a>
                 </div>
 
-                <div class="social-media-icons" style="display: flex;">
+                <div class="social-media-icons d-md-flex">
                     <a href="#"><i class="fab fa-facebook"></i></a>
 
                     <a href="#"><i class="fab fa-twitter"></i></a>
