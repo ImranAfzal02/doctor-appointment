@@ -42,7 +42,7 @@ class LoginController extends Controller {
         if (Auth::user()->hasRole('admin')) {
             $redirectTo = 'admin';
         } else if (Auth::user()->hasRole('patient')) {
-            $redirectTo = 'patient';
+            $redirectTo = 'patient/appointments';
         } else if (Auth::user()->hasRole('staff')) {
             $redirectTo = 'staff';
         }

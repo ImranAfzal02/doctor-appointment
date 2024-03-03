@@ -72,7 +72,7 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><button> Book An Appointment</button></li>
+                    <li><a class="button" href="{{ route('login') }}">Book An Appointment</a></li>
                 </ul>
             </div>
         </nav>
