@@ -45,7 +45,7 @@
 
 <div class="second-nav">
     <div class="col-md-9 mx-auto">
-        <nav class="navbar navbar-expand-lg navbar-light menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark menu-bar">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,6 +71,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/clinic-contact">Clinic Contact</a>
                     </li>
+                    <div class="dynamic-menu-items"></div>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

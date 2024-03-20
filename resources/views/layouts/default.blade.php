@@ -24,6 +24,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @include('includes.head')
+    <script>
+        $(document).ready(function () {
+            // Function to move Menu 2 items based on screen size
+            function moveMenu2Items() {
+                var screenWidth = $(window).width();
+                var dynamicMenuItemsContainer = $('.dynamic-menu-items');
+                dynamicMenuItemsContainer.empty();
+
+                if (screenWidth <= 767) {
+                    // Move Menu 2 items to Menu 1
+                    dynamicMenuItemsContainer.append($('.sidebar-content').html());
+                    //$('.dynamic-menu-items').append($('.sidebar-content').html());
+                } else {
+                    // Remove Menu 2 items from Menu 1
+
+                    $('.dynamic-menu-items').empty();
+                }
+            }
+
+            // Initial check on document ready
+            moveMenu2Items();
+
+            // Check on window resize
+            $(window).resize(function () {
+                moveMenu2Items();
+            });
+        });
+    </script>
 </head>
 <body>
 
