@@ -1,8 +1,10 @@
 <div class="row first-nav logo-bar">
     <div class="col-md-9 mx-auto">
-        <div class="d-md-flex" style="flex-direction: row; justify-content: space-between; align-items: center;">
+        <div class="d-md-flex" style="height: 282px; justify-content: space-between; align-items: center;">
             <div class="left-section-header">
-                <a href="/"><img class="logo" src="{{ asset('images/logo.png') }}" width="500"></a>
+                <a href="/">
+                    <img class="logo" src="{{ asset('images/logo.png') }}" width="300">
+                </a>
             </div>
             <div class="right-section-header d-md-flex flex-column justify-content-between" style="display: flex; flex-direction: column; justify-content: space-between;">
                 <div>

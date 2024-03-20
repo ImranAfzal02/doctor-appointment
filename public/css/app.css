@@ -25,10 +25,13 @@ body {
 }
 
 .first-nav {
-    background-image: url("/images/purplebg.png");
+    background-image: url("/images/purplebg1.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 282px;
+    height: 282px;
+}
 
+.header-image {
 }
 
 .second-nav {
