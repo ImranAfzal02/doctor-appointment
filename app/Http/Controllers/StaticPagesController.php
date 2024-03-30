@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 class StaticPagesController extends Controller {
     public function index() {
+        dd('sdfsdfsdfsfs');
         return view('pages.home');
     }
 
