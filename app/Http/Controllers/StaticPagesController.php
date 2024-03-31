@@ -10,6 +10,10 @@ class StaticPagesController extends Controller {
         return view('pages.breastphysician');
     }
 
+    public function breastScreening() {
+        return view('pages.screening');
+    }
+
     public function clinicIntro() {
         return view('pages.clinicintro');
     }
@@ -91,5 +95,9 @@ class StaticPagesController extends Controller {
 
     public function meetOurTeam() {
         return view('pages.meetourteam');
+    }
+
+    public function gallery() {
+        return view('pages.gallery');
     }
 }

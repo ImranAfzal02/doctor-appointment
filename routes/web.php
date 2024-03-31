@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\StaticPagesController::class, 'index']);
+Route::get('/', [\App\Http\Controllers\StaticPagesController::class, 'clinicIntro']);
 Route::get('/breast-physician', [\App\Http\Controllers\StaticPagesController::class, 'breastPhysician']);
 Route::get('/clinic-intro', [\App\Http\Controllers\StaticPagesController::class, 'clinicIntro']);
 Route::get('/consultation-expectations', [\App\Http\Controllers\StaticPagesController::class, 'consultationExpectation']);
@@ -38,6 +38,7 @@ Route::get('/oncology-consultation', [\App\Http\Controllers\StaticPagesControlle
 Route::get('/psychology-support', [\App\Http\Controllers\StaticPagesController::class, 'psychologySupport']);
 Route::get('/locations', [\App\Http\Controllers\StaticPagesController::class, 'locations']);
 Route::get('/meet-our-team', [\App\Http\Controllers\StaticPagesController::class, 'meetOurTeam']);
+Route::get('/gallery', [\App\Http\Controllers\StaticPagesController::class, 'gallery']);
 Route::post('/submit-form', [\App\Http\Controllers\FormController::class, 'submitForm'])->name('submit.form');
 
 Auth::routes();

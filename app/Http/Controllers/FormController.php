@@ -28,7 +28,7 @@ class FormController extends Controller
             "Phone: " . $validatedData['phone'] . "\n" .
             "Message: " . $validatedData['message'];
 
-        $whatsappLink = "https://wa.me/923212930869?text=" . urlencode($validatedData['message']);
+        $whatsappLink = "https://wa.me/923312925544?text=" . urlencode($validatedData['message']);
 
 
         return view('pages.whatsapp_redirect', compact('whatsappLink'));
