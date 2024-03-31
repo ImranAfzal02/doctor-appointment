@@ -6,13 +6,39 @@ class StaticPagesController extends Controller {
     public function index() {
         return view('pages.home');
     }
+    public function breastPhysician() {
+        return view('pages.breastphysician');
+    }
 
-    public function breastScreening() {
-        return view('pages.screening');
+    public function clinicIntro() {
+        return view('pages.clinicintro');
+    }
+    public function introRazia() {
+        return view('pages.introdrrazia');
     }
 
     public function benignConditions() {
         return view('pages.benign');
+    }
+
+    public function consultationExpectation() {
+        return view('pages.consultationexpectations');
+    }
+
+    public function lymphedema() {
+        return view('pages.lymphedema');
+    }
+
+    public function selfAwareness() {
+        return view('pages.selfawareness');
+    }
+
+    public function services() {
+        return view('pages.services');
+    }
+
+    public function whatsappRedirect() {
+        return view('pages.whatsapp_redirect');
     }
 
     public function ourTeam() {

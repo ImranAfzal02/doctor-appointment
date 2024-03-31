@@ -35,10 +35,9 @@
                 if (screenWidth <= 767) {
                     // Move Menu 2 items to Menu 1
                     dynamicMenuItemsContainer.append($('.sidebar-content').html());
-                    //$('.dynamic-menu-items').append($('.sidebar-content').html());
+
                 } else {
                     // Remove Menu 2 items from Menu 1
-
                     $('.dynamic-menu-items').empty();
                 }
             }
@@ -56,6 +55,15 @@
 <body>
 
 @include('includes.header')
+@include('pages.popup')
+
+<div class="floating-tab">
+    <p>Get in Touch</p>
+</div>
+<a href="#" class="whatsapp" data-toggle="modal" data-target="#contactModal" data-placement="top" title="Connect via Whatsapp">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
 
 <div class="above-hello main-content">
     <div class="row justify-content-center">

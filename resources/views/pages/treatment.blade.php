@@ -1,9 +1,9 @@
 @extends('layouts.default')
 @section('content')
-<p class="services-heading">BREAST CANCER TREATMENT </p>
+<p class="services-heading-1 mt-3 mb-3">BREAST CANCER TREATMENT </p>
 <p>
     <span class="sub-heading-bold">
-        Simple non reconstructive mastectomy: 
+        Simple non reconstructive mastectomy:
     </span>
      A surgery that removes the entire breast, including the nipple and areola, but does not involve any reconstruction of the breast shape.
 </p>

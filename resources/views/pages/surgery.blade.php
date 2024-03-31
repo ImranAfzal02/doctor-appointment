@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<p class="services-heading"> ONCOPLASTIC BREAST SURGERY </p>
+<p class="services-heading-1 mt-3 mb-3"> ONCOPLASTIC BREAST SURGERY </p>
 <p><span class="sub-heading-bold">Breast conservation with level 1 and 2 oncoplastic techniques of volume replacement:</span> A surgery that combines breast cancer removal with cosmetic reconstruction using the remaining breast tissue or tissue from another part of the body to fill in the space left by the lumpectomy and create a natural and symmetrical breast shape.</p>
 <p><span class="sub-heading-bold">Batwing technique mammoplasty:</span> A type of oncoplastic breast surgery that involves making an incision around the areola and extending it to the side of the breast, removing the cancer and some of the surrounding tissue, and reshaping the breast by moving the skin and tissue from the side to the center of the breast.</p>
 <p><span class="sub-heading-bold">Round block mammoplasty:</span> A type of oncoplastic breast surgery that involves making a circular incision around the areola, removing the cancer and some of the surrounding tissue, and reshaping the breast by tightening the skin around the areola.</p>
