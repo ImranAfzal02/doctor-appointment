@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <p class="services-heading">COSMETIC BREAST SURGERY</p>
+    <p class="services-heading-1 mt-3 mb-3">COSMETIC BREAST SURGERY</p>
     <p><span class="sub-heading-bold">Subcutaneous mastectomy: Subcutaneous mastectomy is a surgery that removes most of the breast tissue but preserves the nipple and areola. It is usually done for prophylactic reasons (to prevent breast cancer) or for gender affirmation (in transgender men). It may be followed by breast reconstruction or chest contouring.</p>
     <p><span class="sub-heading-bold">Gynecomastia treatment: Gynecomastia treatment is a surgery that reduces the size and improves the shape of the breasts in men or people assigned male at birth who have enlarged breast tissue. It can involve liposuction, excision of excess skin and glandular tissue, or a combination of both.</p>
     <p><span class="sub-heading-bold">Breast augmentation surgery: Breast augmentation surgery is a surgery that increases the size and enhances the shape of the breasts in women or people assigned female at birth who have small or asymmetrical breasts. It can involve placing implants or transferring fat from another part of the body to the breasts.</p>

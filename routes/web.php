@@ -15,6 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\StaticPagesController::class, 'index']);
+Route::get('/breast-physician', [\App\Http\Controllers\StaticPagesController::class, 'breastPhysician']);
+Route::get('/clinic-intro', [\App\Http\Controllers\StaticPagesController::class, 'clinicIntro']);
+Route::get('/consultation-expectations', [\App\Http\Controllers\StaticPagesController::class, 'consultationExpectation']);
+Route::get('/intro-dr-razia', [\App\Http\Controllers\StaticPagesController::class, 'introRazia']);
+Route::get('/lymphedema', [\App\Http\Controllers\StaticPagesController::class, 'lymphedema']);
+Route::get('/breast-self-awareness', [\App\Http\Controllers\StaticPagesController::class, 'selfAwareness']);
+Route::get('/services', [\App\Http\Controllers\StaticPagesController::class, 'services']);
+Route::get('/whatsapp-redirect', [\App\Http\Controllers\StaticPagesController::class, 'whatsappRedirect']);
 Route::get('/breast-screening', [\App\Http\Controllers\StaticPagesController::class, 'breastScreening']);
 Route::get('/benign-conditions', [\App\Http\Controllers\StaticPagesController::class, 'benignConditions']);
 Route::get('/our-team', [\App\Http\Controllers\StaticPagesController::class, 'ourTeam']);
@@ -30,6 +38,7 @@ Route::get('/oncology-consultation', [\App\Http\Controllers\StaticPagesControlle
 Route::get('/psychology-support', [\App\Http\Controllers\StaticPagesController::class, 'psychologySupport']);
 Route::get('/locations', [\App\Http\Controllers\StaticPagesController::class, 'locations']);
 Route::get('/meet-our-team', [\App\Http\Controllers\StaticPagesController::class, 'meetOurTeam']);
+Route::post('/submit-form', [\App\Http\Controllers\FormController::class, 'submitForm'])->name('submit.form');
 
 Auth::routes();
 

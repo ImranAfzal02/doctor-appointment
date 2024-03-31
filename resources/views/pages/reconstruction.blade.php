@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<p class="services-heading">BREAST RECONSTRUCTION</p>
+<p class="services-heading-1 mt-3 mb-3">BREAST RECONSTRUCTION</p>
 <p><span class="sub-heading-bold">Immediate and late breast reconstruction:</span> Breast reconstruction is the surgical creation of a new breast shape after a mastectomy or lumpectomy. It can be done at the same time as the breast cancer surgery (immediate reconstruction) or after the wound has healed and the cancer treatment has finished (late reconstruction).</p>
 <p><span class="sub-heading-bold">Nipple reconstruction:</span> Nipple reconstruction is the surgical creation of a new nipple and areola on the reconstructed breast. It can be done as a separate procedure after the breast reconstruction or as part of the breast reconstruction. It can use skin from the breast or another part of the body, or a tattoo or a prosthesis</p>
 <p><span class="sub-heading-bold">Local flaps including LICAP, MICAP, Grisotti flap, LTAP, TDAP, LD flap:</span> Local flaps are techniques that use skin, fat, and sometimes muscle from the chest or back area to reconstruct the breast. They are usually combined with an implant to provide enough volume. Some examples of local flaps are: LICAP (lateral intercostal artery perforator), MICAP (medial intercostal artery perforator), Grisotti flap, LTAP (lateral thoracic artery perforator), TDAP (thoracodorsal artery perforator), and LD flap (latissimus dorsi).</p>
