@@ -9,7 +9,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p style="color: gray;">Welcome to Nisa Breast Center. Please enter the following details to connect with us via Whatsapp</p>
+                <p style="color: gray;">Welcome to Nisa Breast Centre. Please enter the following details to connect with us via Whatsapp</p>
                 <p class="urdu" style="color: gray;">نسا بریسٹ سینٹر میں خوش آمدید۔ براہ کرم ہم سے واٹس ایپ کے ذریعے رابطہ کرنے کے لئے مندرجہ ذیل تفصیلات داخل کریں۔</p>
                 <!-- Your form -->
                 <form id="contactForm" action="{{ route('submit.form') }}" method="post">

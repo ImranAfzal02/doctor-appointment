@@ -58,7 +58,7 @@
                         <a class="nav-link" href="/meet-our-team">Meet Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="/gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/locations">Locations</a>

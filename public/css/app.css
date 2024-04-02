@@ -47,12 +47,19 @@ body {
     grid-gap: 10px;
     align-items: end;
 }
+.image-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    align-items: end;
+}
 
-.image-container img {
+.image-container img, .image-container-2 img {
     width: 100%;
     height: auto;
 
 }
+
 
 .one-image-container {
     display: grid;
