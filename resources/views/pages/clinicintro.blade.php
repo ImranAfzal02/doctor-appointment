@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <p class="clinic-title mt-3">NISA BREAST CARE AND COSMETIC CENTER</p>
+    <p class="clinic-title mt-3">NISA BREAST CARE AND COSMETIC CENTRE</p>
     <p class="clinic-subheading" style="padding-top: 0px;">Breast Screening, diagnostic, benign, cancer, lymphedema</p>
 
     <p class="services-heading-1 mt-4">INTRODUCTION</p>
@@ -70,7 +70,7 @@
         <li>Breast cancer may not be preventable but has promising outcome when detected at the early stage.</li>
         <li>Breast cancer survival rates are closely tied to the stage of breast cancer (98% for Stage 1 and 88% for Stage 2), so early detection becomes paramount.
         </li>
-        <li>Nisa Breast Care &  Cosmetic Center is here to provide timely and comprehensive care to improve outcomes. We provide comprehensive breast clinical assessment, diagnostic facilities, treatment, and follow up .
+        <li>Nisa Breast Care &  Cosmetic Centre is here to provide timely and comprehensive care to improve outcomes. We provide comprehensive breast clinical assessment, diagnostic facilities, treatment, and follow up .
 
         </li>
     </ul>

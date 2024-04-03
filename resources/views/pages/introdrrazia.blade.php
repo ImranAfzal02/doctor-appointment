@@ -21,8 +21,9 @@
         <img src="{{ asset('images/qual.png') }}">
     </div>
 
-    <div class="image-container mt-4">
-        <img src="{{ asset('images/FACS.jpg') }}">
+    <img src="{{ asset('images/FACS.jpg') }}" class="img-fluid">
+
+    <div class="image-container-2 mt-4">
         <img src="{{ asset('images/FRCS.jpg') }}">
     </div>
 
