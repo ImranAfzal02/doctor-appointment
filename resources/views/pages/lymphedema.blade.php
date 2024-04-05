@@ -205,8 +205,8 @@
     <p>MLD</p>
 
     <div class="image-container">
-        <img src="{{ asset('images/lymph9.png') }}" alt="Image 9">
-        <img src="{{ asset('images/clinicc.jpeg') }}">
+        <img src="{{ asset('images/lymph9.png') }}" class="img-fluid" alt="Image 9">
+        <img src="{{ asset('images/clinicc.jpeg') }}" class="img-fluid">
     </div>
 
     <ul class="mt-4">

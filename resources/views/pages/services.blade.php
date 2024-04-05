@@ -127,7 +127,7 @@
         <li>3D Nipple tattooing </li>
         <li>Camaflouge scar Therapy  </li>
     </ul>
-    <img src="{{ asset('images/tattooing.png') }}">
+    <img src="{{ asset('images/tattooing.png') }}" class="img-fluid">
 
     <p class="services-heading-7 mt-2">11. Psychology Support for newly diagnosed and advanced breast cancer patients
     </p>
@@ -141,6 +141,6 @@
     </ul>
 
     <div class="image-container">
-        <img src="{{ asset('images/clinicc.jpeg') }}">
+        <img src="{{ asset('images/clinicc.jpeg') }}" class="img-fluid">
     </div>
 @stop

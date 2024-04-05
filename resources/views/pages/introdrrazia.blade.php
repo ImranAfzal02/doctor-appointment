@@ -5,26 +5,26 @@
 
     <p  class="services-heading-6">BRESO CERTIFIED BREAST SURGEON<span style="color: grey;"> (European Breast Surgical Oncology Certification 2024)</span></p>
     <div class="image-container">
-        <img src="{{ asset('images/Raziapic.jpg') }}" alt="Image 1">
-        <img src="{{ asset('images/award.png') }}" alt="Image 2">
-        <img src="{{ asset('images/award2.png') }}" alt="Image 3">
+        <img src="{{ asset('images/Raziapic.jpg') }}" class="img-fluid" alt="Image 1">
+        <img src="{{ asset('images/award.png') }}" class="img-fluid" alt="Image 2">
+        <img src="{{ asset('images/award2.png') }}" class="img-fluid" alt="Image 3">
     </div>
 
 
     <div class="image-container mt-4">
-        <img src="{{ asset('images/FEBS.jpg') }}">
-        <img src="{{ asset('images/skmh.png') }}">
+        <img src="{{ asset('images/FEBS.jpg') }}" class="img-fluid">
+        <img src="{{ asset('images/skmh.png') }}" class="img-fluid">
     </div>
 
 
     <div class="one-image-container mt-4">
-        <img src="{{ asset('images/qual.png') }}">
+        <img src="{{ asset('images/qual.png') }}" class="img-fluid">
     </div>
 
     <img src="{{ asset('images/FACS.jpg') }}" class="img-fluid">
 
     <div class="image-container-2 mt-4">
-        <img src="{{ asset('images/FRCS.jpg') }}">
+        <img src="{{ asset('images/FRCS.jpg') }}" class="img-fluid">
     </div>
 
     <p class="services-heading-4 mt-5">Introduction :</p>

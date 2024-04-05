@@ -5,12 +5,12 @@
 <p><span class="sub-heading-bold">Camouflage scar therapy: </span>Camouflage scar therapy is a type of medical tattooing that improves the appearance of scars that are discolored or altered in pigmentation and stand out because of the difference in color compared to the surrounding skin. It uses natural pigments that match the skin tone to blend the scar into the background. It can be done on scars from surgery, injury, burns, or skin conditions.</p>
 
 <div class="one-image-container">
-    <img src="{{ asset('images/medicaltattooing1.jpeg') }}" alt="Image 1">
+    <img src="{{ asset('images/medicaltattooing1.jpeg') }}" class="img-fluid" alt="Image 1">
 </div>
 
 <div class="image-container mt-4">
-    <img src="{{ asset('images/medicaltattooing2.jpeg') }}" alt="Image 2">
-    <img src="{{ asset('images/medicaltattooing3.jpeg') }}" alt="Image 3">
+    <img src="{{ asset('images/medicaltattooing2.jpeg') }}" class="img-fluid" alt="Image 2">
+    <img src="{{ asset('images/medicaltattooing3.jpeg') }}" class="img-fluid" alt="Image 3">
 </div>
 
 @stop

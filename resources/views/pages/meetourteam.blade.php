@@ -147,7 +147,7 @@
         </p>
     </div>
     <div class="image-container">
-        <img src="{{ asset('images/drtariq.jpg') }}" alt="Image 1">
+        <img src="{{ asset('images/drtariq.jpg') }}" class="img-fluid" alt="Image 1">
     </div>
 
 
